@@ -19,11 +19,6 @@
             <layout>p2</layout>
         </repository>
     </repositories>
-
-    <properties>
-      <repositoryName>site-test</repositoryName>
-      <repositoryOwner>hiebra</repositoryOwner>
-    </properties>
     
     <build>
         <plugins>
@@ -40,6 +35,8 @@
               <version>0.12</version>
               <configuration>
                 <message>Creating site for https://github.com/softalks/site-test</message>
+                <repositoryName>site-test</repositoryName>
+                <repositoryOwner>hiebra</repositoryOwner>
               </configuration>
               <executions>
                 <execution>

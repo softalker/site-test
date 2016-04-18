@@ -36,7 +36,7 @@
               <configuration>
                 <message>Creating site for https://github.com/softalks/site-test</message>
                 <userName>hiebra</userName>
-                <password>${hiebra.password}</password>
+                <password>${env.GH_PASSWORD}</password>
                 <repositoryName>site-test</repositoryName>
                 <repositoryOwner>hiebra</repositoryOwner>
               </configuration>

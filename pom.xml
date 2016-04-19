@@ -2,15 +2,21 @@
 
 <project>
   
-    <modelVersion>4.0.0</modelVersion>
-    
-    <groupId>com.softalks</groupId>
-    
-    <artifactId>com.softalks.pilot</artifactId>
-    
-    <version>1.0.0</version>
-    
-    <packaging>eclipse-plugin</packaging>
+  <modelVersion>4.0.0</modelVersion>
+  
+  <groupId>com.softalks</groupId>
+  
+  <artifactId>com.softalks.pilot</artifactId>
+  
+  <version>1.0.0</version>
+  
+  <packaging>eclipse-plugin</packaging>
+
+  <name>Hotel Database tutorial application</name>
+  
+  <url>http://your.project.url</url>
+  
+  <description>Write a few paragraphs to say what your project is about.</description>
 
     <repositories>
         <repository>

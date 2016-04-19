@@ -1,4 +1,4 @@
-<table with="100%">
+<table width="100%">
   <tr>
     <td align="left">left</td>
     <td align="right">right</td>

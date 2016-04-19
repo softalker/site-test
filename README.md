@@ -1,7 +1,7 @@
 <table width="100%">
-  <tr>
-    <td align="left">left</td>
-    <td align="right">right</td>
+  <tr width="100%">
+    <td width="100%" align="left">left</td>
+    <td width="100%" align="right">right</td>
   </tr>
 </table>
 <div style="position:relative">

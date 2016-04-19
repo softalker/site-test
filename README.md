@@ -1,7 +1,7 @@
-<span style='position:relative'>
-  <span style='top:0px;right:0px;position:absolute;border:1px solid black'>Left</span>
-  <span style='top:0px;left:0px;position:absolute;border:1px solid black'>Right</span>
-</span>
+<div style='position:relative'>
+  <div style='top:0px;right:0px;position:absolute;border:1px solid black'>Left</div>
+  <div style='top:0px;left:0px;position:absolute;border:1px solid black'>Right</div>
+</div>
 <!--
 Hola
 <br>

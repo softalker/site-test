@@ -1,6 +1,6 @@
 <table width="100%" border="1">
   <tr width="100%">
-    <td border="1" width="50%" align="left">
+    <td border="1" width="100%" align="left">
       juan
       <!--
       <a href='https://semaphoreci.com/hiebra/site-test'>
@@ -8,7 +8,7 @@
       </a>
       -->
     </td>
-    <td border="0" width="50%" align="right">
+    <td border="0" width="100%" align="right">
     pepe
       <!--
       <a href='http://softalks.github.io/site-test/apidocs/index.html'> 

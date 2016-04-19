@@ -12,7 +12,7 @@
     </td>
     <td align="right">
       <a href='http://softalks.github.io/site-test'> 
-        <img src='https://www.google.es/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiHvb__0JrMAhVJ0xoKHbUzBCYQjRwIBw&url=http%3A%2F%2Fwww.mossenbergrealestate.com%2Ffine%2Freal%2Festate%2Flink04%2Fcustom%2FHome-Inspectors&psig=AFQjCNEztw7OLfz4ghk114QSFD1FqRxG3Q&ust=1461152882171420'>
+        <img src='http://www.oakridgehousing.com/test/images/Home%20Sales.jpeg'>
       </a>
     </td>
   </tr>

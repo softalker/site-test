@@ -38,7 +38,7 @@
                 <userName>hiebra</userName>
                 <password>${env.GH_PASSWORD}</password>
                 <repositoryName>site-test</repositoryName>
-                <repositoryOwner>hiebra</repositoryOwner>
+                <repositoryOwner>softalks</repositoryOwner>
               </configuration>
               <executions>
                 <execution>

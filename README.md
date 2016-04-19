@@ -9,9 +9,12 @@
       -->
     </td>
     <td border="0" width="50%" align="right">
+    pepe
+      <!--
       <a href='http://softalks.github.io/site-test/apidocs/index.html'> 
         <img src='http://www.konakart.com/wp-content/uploads/2014/11/javadoc.png' alt='Javadoc pages'>
       </a>
+      -->
     </td>
   </tr>
 </table>

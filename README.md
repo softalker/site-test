@@ -1,6 +1,6 @@
 <table width="100%" border="1">
   <tr width="100%">
-    <td border="0" width="50%" align="left">
+    <td border="1" width="50%" align="left">
       juan
       <!--
       <a href='https://semaphoreci.com/hiebra/site-test'>

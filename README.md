@@ -1,6 +1,6 @@
 <div style='position:relative'>
-  <div style='top:0px;right:0px;position:absolute;border:1px solid black'>Left</div>
-  <div style='top:0px;left:0px;position:absolute;border:1px solid black'>Right</div>
+  <div style='top:8px;right:16px;position:absolute>Left</div>
+  <div style='top:8px;left:16px;position:absolute>Right</div>
 </div>
 <!--
 Hola

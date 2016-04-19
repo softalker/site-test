@@ -1,4 +1,4 @@
-<table width="100%" border="0" align="center">
+<table width="100%">
   <tr width="100%">
     <td border="0" width="50%" align="left">
       <a href='https://semaphoreci.com/hiebra/site-test'>

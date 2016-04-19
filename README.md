@@ -1,7 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
 <div style="position:relative">
   <div style="position:absolute;top:8px;right:16px;">Top Right</div>
   <div style="position:absolute;top:8px;left:16px;">Top Left</div>
 </div>
+</body>
+</html>
+
 <!--
 Hola
 <br>

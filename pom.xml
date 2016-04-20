@@ -12,9 +12,9 @@
   
   <packaging>eclipse-plugin</packaging>
 
-  <name>Hotel Database tutorial application</name>
+  <name>Maven site generator test project</name>
   
-  <url>http://your.project.url</url>
+  <url>http://softalks.github.io/site-test</url>
   
   <description>Write a few paragraphs to say what your project is about.</description>
 

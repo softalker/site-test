@@ -73,6 +73,7 @@
                 <repositoryName>site-test</repositoryName>
                 <repositoryOwner>softalks</repositoryOwner>
               </configuration>
+              <!--
               <executions>
                 <execution>
                   <goals>
@@ -81,6 +82,7 @@
                   <phase>site</phase>
                 </execution>
               </executions>
+              -->
             </plugin>
             
         </plugins>

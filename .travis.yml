@@ -5,7 +5,9 @@ install:
   - pwd
 script: 
   - mvn clean verify
-  - mvn site
+  - mvn site:site
+  - echo "Hello, World!" > target/site/test.txt
+  - mvn ghsite:site
 cache:
   directories:
   - $HOME/.m2

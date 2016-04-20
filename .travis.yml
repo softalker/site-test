@@ -1,8 +1,11 @@
 language: java
 jdk:
   - oraclejdk8
-install: true 
-script: mvn clean verify
+install: 
+  - pwd
+script: 
+  - mvn clean verify
+  - mvn site
 cache:
   directories:
   - $HOME/.m2

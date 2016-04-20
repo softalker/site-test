@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/softalks/maven-test.svg?branch=master)](https://travis-ci.org/softalks/maven-test)
+[![Build Status](https://travis-ci.org/softalks/site-test.svg?branch=master)](https://travis-ci.org/softalks/site-test)
 <table>
   <tr>
     <td>

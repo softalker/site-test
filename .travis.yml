@@ -7,7 +7,7 @@ script:
   - mvn clean verify
   - mvn site:site
   - echo "Hello, World!" > target/site/test.txt
-  - mvn ghsite:site
+  - mvn site:deploy
 cache:
   directories:
   - $HOME/.m2

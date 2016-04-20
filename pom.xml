@@ -55,6 +55,14 @@
             </plugin>
             
             <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-site-plugin</artifactId>
+              <configuration>
+                <siteDirectory>${basedir}/site</siteDirectory>                
+              </configuration>
+            </plugin>
+
+            <plugin>
               <groupId>com.github.github</groupId>
               <artifactId>site-maven-plugin</artifactId>
               <version>0.12</version>

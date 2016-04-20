@@ -18,74 +18,81 @@
   
   <description>Write a few paragraphs to say what your project is about.</description>
 
-    <repositories>
-        <repository>
-            <id>luna</id>
-            <url>http://download.eclipse.org/releases/luna</url>
-            <layout>p2</layout>
-        </repository>
-    </repositories>
-    
-    <reporting>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-javadoc-plugin</artifactId>
-          <version>2.10.3</version>
-          <configuration>
-          </configuration>
-        </plugin>
-      </plugins>
-    </reporting>
-    
-    <pluginRepositories>
-      <pluginRepository>
-        <id>tycho-snapshots</id>
-        <url>https://repo.eclipse.org/content/repositories/tycho-snapshots/</url>
-      </pluginRepository>
-    </pluginRepositories>
-    
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.eclipse.tycho</groupId>
-                <artifactId>tycho-maven-plugin</artifactId>
-                <version>0.25.0</version>
-                <extensions>true</extensions>
-            </plugin>
-            
-            <plugin>
-              <groupId>org.apache.maven.plugins</groupId>
-              <artifactId>maven-site-plugin</artifactId>
-              <configuration>
-                <siteDirectory>${basedir}/site</siteDirectory>                
-              </configuration>
-            </plugin>
+  <distributionManagement>
+    <site>
+      <id>site-test.softalks.com</id>
+      <url>http://softalks.github.io/site-test/</url>
+    </site>
+  </distributionManagement>
 
-            <plugin>
-              <groupId>com.github.github</groupId>
-              <artifactId>site-maven-plugin</artifactId>
-              <version>0.12</version>
-              <configuration>
-                <message>Creating site for https://github.com/softalks/site-test</message>
-                <userName>hiebra</userName>
-                <password>${env.GH_PASSWORD}</password>
-                <repositoryName>site-test</repositoryName>
-                <repositoryOwner>softalks</repositoryOwner>
-              </configuration>
-              
-              <executions>
-                <execution>
-                  <goals>
-                    <goal>site</goal>
-                  </goals>
-                  <phase>site-deploy</phase>
-                </execution>
-              </executions>
-              
-            </plugin>
+  <repositories>
+      <repository>
+          <id>luna</id>
+          <url>http://download.eclipse.org/releases/luna</url>
+          <layout>p2</layout>
+      </repository>
+  </repositories>
+    
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>2.10.3</version>
+        <configuration>
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
+    
+  <pluginRepositories>
+    <pluginRepository>
+      <id>tycho-snapshots</id>
+      <url>https://repo.eclipse.org/content/repositories/tycho-snapshots/</url>
+    </pluginRepository>
+  </pluginRepositories>
+    
+  <build>
+      <plugins>
+          <plugin>
+              <groupId>org.eclipse.tycho</groupId>
+              <artifactId>tycho-maven-plugin</artifactId>
+              <version>0.25.0</version>
+              <extensions>true</extensions>
+          </plugin>
+          
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-site-plugin</artifactId>
+            <configuration>
+              <siteDirectory>${basedir}/site</siteDirectory>                
+            </configuration>
+          </plugin>
+
+          <plugin>
+            <groupId>com.github.github</groupId>
+            <artifactId>site-maven-plugin</artifactId>
+            <version>0.12</version>
+            <configuration>
+              <message>Creating site for https://github.com/softalks/site-test</message>
+              <userName>hiebra</userName>
+              <password>${env.GH_PASSWORD}</password>
+              <repositoryName>site-test</repositoryName>
+              <repositoryOwner>softalks</repositoryOwner>
+            </configuration>
             
-        </plugins>
-    </build>
+            <executions>
+              <execution>
+                <goals>
+                  <goal>site</goal>
+                </goals>
+                <phase>site-deploy</phase>
+              </execution>
+            </executions>
+            
+          </plugin>
+          
+      </plugins>
+  </build>
     
 </project>

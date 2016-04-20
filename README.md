@@ -1,4 +1,4 @@
-<table>
+<table style="border:0">
   <tr>
     <td>
       <a href='http://softalks.github.io/site-test'>

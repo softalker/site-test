@@ -1,8 +1,7 @@
 <project>
   <body>
-    <menu name="Overview">
-      <item name="Foo" href="foo.html" />
-      <item name="FAQ" href="faq.html" />
+    <menu name="Download">
+      <item name="OSGi bundle" href="test.txt" />
     </menu>
   </body>
 </project>

@@ -12,19 +12,6 @@
   
   <packaging>eclipse-plugin</packaging>
 
-  <name>Maven site generator test project</name>
-  
-  <url>http://softalks.github.io/site-test</url>
-  
-  <description>Write a few paragraphs to say what your project is about.</description>
-
-  <distributionManagement>
-    <site>
-      <id>site-test.softalks.com</id>
-      <url>http://softalks.github.io/site-test/</url>
-    </site>
-  </distributionManagement>
-
   <repositories>
       <repository>
           <id>luna</id>
@@ -87,7 +74,7 @@
                 <goals>
                   <goal>site</goal>
                 </goals>
-                <phase>site-deploy</phase>
+                <phase>post-site</phase>
               </execution>
             </executions>
             

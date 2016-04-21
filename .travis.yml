@@ -1,6 +1,6 @@
 language: java
 jdk: oraclejdk8
-install: mvn -Dplugin=site help:describe
+install: true
 script: mvn clean verify post-site
 cache:
   directories: $HOME/.m2

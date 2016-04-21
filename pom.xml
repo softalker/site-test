@@ -47,6 +47,8 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-site-plugin</artifactId>
+            <!-- version obtained by > mvn -Dplugin=site help:describe  -->
+            <version>3.5.1</version>
             <configuration>
               <siteDirectory>${basedir}/site</siteDirectory>                
             </configuration>

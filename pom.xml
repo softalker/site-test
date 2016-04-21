@@ -55,21 +55,21 @@
           </plugin>
           
           <plugin>  
-            <groupId>org.codehaus.mojo</groupId> 
-            <artifactId>exec-maven-plugin</artifactId> 
-            <version>1.4.0</version> 
+            <groupId>org.apache.maven.plugins</groupId> 
+            <artifactId>maven-antrun-plugin</artifactId> 
+            <version>1.8</version>
             <executions>
               <execution>
                 <goals>
-                  <goal>exec</goal> 
+                  <goal>run</goal> 
                 </goals>
                 <phase>post-site</phase>
               </execution>
             </executions>
             <configuration>
-              <executable>cp</executable>
-              <argument>/home/travis/build/softalks/site-test/target/com.softalks.pilot-1.0.0.jar</argument>
-              <argument>site</argument>
+              <tasks>
+                <copy file="target/com.softalks.pilot-1.0.0.jar" todir="site"/>
+              </tasks>
             </configuration>
           </plugin>
           

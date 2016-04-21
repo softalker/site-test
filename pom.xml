@@ -63,8 +63,8 @@
                 <goals>
                   <goal>exec</goal> 
                 </goals>
+                <phase>post-site</phase>
               </execution>
-              <phase>post-site</phase>
             </executions>
             <configuration>
               <executable>cp target/com.softalks.pilot-1.0.0.jar site/test.txt</executable> 

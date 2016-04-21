@@ -3,13 +3,9 @@
 <project>
   
   <modelVersion>4.0.0</modelVersion>
-  
   <groupId>com.softalks</groupId>
-  
   <artifactId>com.softalks.pilot</artifactId>
-  
   <version>1.0.0</version>
-  
   <packaging>eclipse-plugin</packaging>
 
   <repositories>
@@ -53,10 +49,9 @@
             <artifactId>maven-site-plugin</artifactId>
             <configuration>
               <siteDirectory>${basedir}/site</siteDirectory>                
-              <skipDeploy>true</skipDeploy>
             </configuration>
           </plugin>
-
+          
           <plugin>
             <groupId>com.github.github</groupId>
             <artifactId>site-maven-plugin</artifactId>

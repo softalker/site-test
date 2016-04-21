@@ -2,8 +2,8 @@
   <body>
     <menu name="Download">
       <item name="OSGi Bundle" href="jar/com.softalks.pilot-1.0.0.jar" />
-      <item name="Javadoc Jar"
-      <item name="OSGi Source Bundle" href="jar/com.softalks.pilot-1.0.0.jar" />
+      <item name="Javadoc API in one jar file)" href="http://softalks.github.io/site-test/jar/com.softalks.pilot-1.0.0.jar"/>
+      <item name="Source Bundle (for eclipse IDE)" href="jar/com.softalks.pilot.source-1.0.0.jar" />
     </menu>
     <menu name="Links">
       <item name="API (Javadoc)" href="apidocs/index.html"/>

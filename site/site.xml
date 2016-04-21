@@ -1,8 +1,13 @@
 <project>
   <body>
     <menu name="Download">
-      <item name="OSGi Bundle" href="com.softalks.pilot-1.0.0.jar" />
-      <item name="Source Code" href="https://github.com/softalks/site-test" />
+      <item name="OSGi Bundle" href="jar/com.softalks.pilot-1.0.0.jar" />
+      <item name="Javadoc Jar"
+      <item name="OSGi Source Bundle" href="jar/com.softalks.pilot-1.0.0.jar" />
+    </menu>
+    <menu name="Links">
+      <item name="API (Javadoc)" href="apidocs/index.html"/>
+      <item name="GitHub Project" href="https://github.com/softalks/site-test"/>
     </menu>
   </body>
 </project>

@@ -8,7 +8,7 @@
     <menu name="Links">
       <item name="Javadoc" href="apidocs/index.html"/>
       <item name="Wiki" href="https://github.com/softalks/site-test/wiki/Pilot"/>
-      <item name="Issues" href="https://github.com/softalks/site-test/wiki/Pilot"/>
+      <item name="Issues" href="https://github.com/softalks/site-test/issues"/>
       <item name="Source code" href="https://github.com/softalks/site-test"/>
     </menu>
   </body>

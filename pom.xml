@@ -68,7 +68,7 @@
             </executions>
             <configuration>
               <tasks>
-                <copy file="target/com.softalks.pilot-1.0.0.jar" todir="site"/>
+                <copy file="target/com.softalks.pilot-1.0.0.jar" todir="site/resources"/>
               </tasks>
             </configuration>
           </plugin>

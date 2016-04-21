@@ -54,6 +54,23 @@
             </configuration>
           </plugin>
           
+          <plugin>  
+            <groupId>org.codehaus.mojo</groupId> 
+            <artifactId>exec-maven-plugin</artifactId> 
+            <version>1.4.0</version> 
+            <executions>
+              <execution>
+                <goals>
+                  <goal>exec</goal> 
+                </goals>
+              </execution>
+              <phase>post-site</phase>
+            </executions>
+            <configuration>
+              <executable>cp target/com.softalks.pilot-1.0.0.jar site/test.txt</executable> 
+            </configuration>
+          </plugin>
+          
           <plugin>
             <groupId>com.github.github</groupId>
             <artifactId>site-maven-plugin</artifactId>

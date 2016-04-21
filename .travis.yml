@@ -1,13 +1,6 @@
 language: java
-jdk:
-  - oraclejdk8
-install: 
-  - pwd
-script: 
-  - mvn clean verify
-  - mvn site:site
-  - echo "Hello, World!" > target/site/test.txt
-  - mvn site:deploy
+jdk: oraclejdk8
+install: true
+script: mvn clean verify post-site
 cache:
-  directories:
-  - $HOME/.m2
+  directories: $HOME/.m2

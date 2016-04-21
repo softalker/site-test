@@ -1,7 +1,7 @@
 <project>
   <body>
     <menu name="Download">
-      <item name="OSGi bundle" href="test.txt" />
+      <item name="OSGi bundle" href="com.softalks.pilot-1.0.0.jar" />
     </menu>
   </body>
 </project>

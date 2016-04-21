@@ -67,7 +67,9 @@
               </execution>
             </executions>
             <configuration>
-              <executable>cp target/com.softalks.pilot-1.0.0.jar site/test.txt</executable> 
+              <executable>cp</executable>
+              <argument>target/com.softalks.pilot-1.0.0.jar</argument>
+              <argument>site/test.txt</argument>
             </configuration>
           </plugin>
           

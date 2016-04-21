@@ -68,8 +68,8 @@
             </executions>
             <configuration>
               <executable>cp</executable>
-              <argument>target/com.softalks.pilot-1.0.0.jar</argument>
-              <argument>site/test.txt</argument>
+              <argument>/home/travis/build/softalks/site-test/target/com.softalks.pilot-1.0.0.jar</argument>
+              <argument>site</argument>
             </configuration>
           </plugin>
           

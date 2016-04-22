@@ -10,6 +10,7 @@
   <name>Softalks Pilot Project</name>
   <url>http://softalks.com</url>
   <description>This is a description</description>
+  
   <repositories>
       <repository>
           <id>luna</id>
@@ -29,7 +30,6 @@
       </plugin>
     </plugins>
   </reporting>
-    
   <!--
   <pluginRepositories>
     <pluginRepository>

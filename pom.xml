@@ -7,7 +7,9 @@
   <artifactId>com.softalks.pilot</artifactId>
   <version>1.0.0</version>
   <packaging>eclipse-plugin</packaging>
-
+  <name>Softalks Pilot Project</name>
+  <url>http://softalks.com</url>
+  <description>This is a description</description>
   <repositories>
       <repository>
           <id>luna</id>

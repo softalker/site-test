@@ -10,6 +10,18 @@
       </fluidoSkin>
   </custom>
   <body>
+    <links>
+        <item name="akquinet" href="http://www.akquinet.de/en"/>
+    </links>
+
+    <menu name="Regular Web Site">
+        <item name="APT Format" href="format.html"/>
+        <item name="Xdoc Example" href="xdoc.html"/>
+        <item name="FAQ" href="faq.html"/>
+    </menu>
+
+    <menu ref="reports"/>
+    
     <menu name="Links">
       <item name="Wiki" href="https://github.com/softalks/site-test/wiki/Pilot"/>
       <item name="Javadoc" href="apidocs/index.html"/>

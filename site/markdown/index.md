@@ -1,6 +1,8 @@
 Markdown Maven Site
 ===================
- 
+
+This web site was generated for ${project.groupId}:${project.artifactId}:${project.version}.
+
 Congratulations! If you are looking at this page then you have successfully generated a maven site using
 the markdown syntax !
  
